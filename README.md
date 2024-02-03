@@ -1,8 +1,29 @@
 # awesome-llm-time-series
 
-![](./taxonomy.png)
+Keep updating the repo; stay tuned!
 
-## Prompting
+![](./taxonomy.png)
+Left: Taxonomy of LLMs for time series analysis. If we outline typical LLM-driven NLP pipelines in five stages - input text, tokenization, embedding, LLM, output - then each category of our taxonomy targets one specific stage in this pipeline:
+* Prompting (input stage) treats time series data as raw text and directly prompts LLMs with time series;
+* Time Series Quantization (tokenization stage) discretizes time series as special tokens for LLMs to process;
+* Alignment (embedding stage) designs time series encoder to align time series embeddings with language space;
+* Vision as Bridge (LLM stage) connects time series with Vision-Lanuage Models (VLM) by employing visual representations as a bridge;
+* Tool Integration (output stage) adopts language models to output tools to benefit time series analysis.
+
+Right: Representative works for each category, sorted by their publication dates. The use of arrows indicates that later works build upon earlier studies. Dark(light)-colored boxes represent billion(million)-parameter models. Icons to the left of the text boxes represent the application domains of domain-specific models.
+
+- [Taxonomy](#taxonomy)
+  - [Prompting](#prompting)
+  - [Quantization](#quantization)
+  - [Alignment](#alignment)
+  - [Vision](#vision)
+  - [Tool](#tool)
+- [Datasets](#datasets)
+    
+## Taxonomy
+
+### Prompting
+
 Date|Paper|Institute|Conference|Domain|Task|LLM
 ----|---------------------|----|----|----|----|----
 11 Sep 2022|[Leveraging Language Foundation Models for Human Mobility Forecasting](https://arxiv.org/abs/2209.05479)|University of New South Wales|SIGSPATIAL'22|Mobility|Forecasting|Bert, BoBERTa, GPT-2, etc.
@@ -17,3 +38,6 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 11 Oct 2023|[Large Language Models Are Zero-Shot Time Series Forecasters](https://arxiv.org/abs/2310.07820)|NYU, CMU|NeurIPS'23|General|Forecasting|GPT-3, LLaMA-2 
 26 Oct 2023|[Utilizing Language Models for Energy Load Forecasting](https://arxiv.org/abs/2310.17788)|University of New South Wales|BuildSys'23|Energy|Forecasting|Bart, Bigbird, Pegasus
 
+### Citation
+
+If you find this useful, please cite our paper: "Large Language Models for Time Series: A Survey"
