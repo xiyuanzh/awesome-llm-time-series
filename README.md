@@ -55,7 +55,7 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 22 Jun 2023|[AudioPaLM: A Large Language Model That Can Speak and Listen](https://arxiv.org/abs/2306.12925)|Google|Preprint|Audio|Generation, Translation|PaLM-2
 15 Sept 2023|[Modeling Time Series as Text Sequence A Frequency-vectorization Transformer for Time Series Forecasting](https://openreview.net/forum?id=N1cjy5iznY)|Anonymous|OpenReview|General|Forecasting|Transformer
 22 Sept 2023|[Time Series Modeling at Scale: A Universal Representation Across Tasks and Domains](https://openreview.net/forum?id=SZErAetdMu)|Anonymous|OpenReview|General|Forecasting, Classification, etc.|Transformer
-25 Sep 2023|[DeWave: Discrete EEG Waves Encoding for Brain Dynamics to Text Translation](https://arxiv.org/abs/2309.14030)|University of Technology Sydney, The University of Sydney|NeurIPS'23|Health|Text Generation|BART
+25 Sep 2023|[DeWave: Discrete EEG Waves Encoding for Brain Dynamics to Text Translation](https://arxiv.org/abs/2309.14030)|University of Technology Sydney, The University of Sydney|NeurIPS'23|Health|Generation|BART
 1 Oct 2023|[UniAudio: An Audio Foundation Model Toward Universal Audio Generation](https://arxiv.org/abs/2310.00704)|The Chinese University of Hong Kong, CMU, etc.|Preprint|Audio|Generation|Transformer
 
 
