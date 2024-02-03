@@ -38,6 +38,21 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 11 Oct 2023|[Large Language Models Are Zero-Shot Time Series Forecasters](https://arxiv.org/abs/2310.07820)|NYU, CMU|NeurIPS'23|General|Forecasting|GPT-3, LLaMA-2 
 26 Oct 2023|[Utilizing Language Models for Energy Load Forecasting](https://arxiv.org/abs/2310.17788)|University of New South Wales|BuildSys'23|Energy|Forecasting|Bart, Bigbird, Pegasus
 
+### Quantization
+
+![](./quantization.png)
+
+Left: VQ-VAE based quantization; Right: K-Means based quantization
+
+Date|Paper|Institute|Conference|Domain|Task|LLM
+----|---------------------|----|----|----|----|----
+30 Sep 2022|[AudioGen: Textually Guided Audio Generation](https://arxiv.org/abs/2209.15352)|Meta, The Hebrew University of Jerusalem|ICLR'23|Audio|Audio Generation|Transformer
+9 Mar 2023|[Text-to-ECG: 12-Lead Electrocardiogram Synthesis conditioned on Clinical Text Reports](https://arxiv.org/abs/2303.09395)|KAIST, Medical AI Inc., etc.|ICASSP'23|Health|Time Series Generation|Transformer
+25 May 2023|[VioLA: Unified Codec Language Models for Speech Recognition, Synthesis, and Translation](https://arxiv.org/abs/2305.16107)|Microsoft|Preprint|Audio|ASR, Audio Generation|Transformer
+25 Sep 2023|[DeWave: Discrete EEG Waves Encoding for Brain Dynamics to Text Translation](https://arxiv.org/abs/2309.14030)|University of Technology Sydney, The University of Sydney|NeurIPS'23|Health|Text Generation|BART
+1 Oct 2023|[UniAudio: An Audio Foundation Model Toward Universal Audio Generation](https://arxiv.org/abs/2310.00704)|The Chinese University of Hong Kong, CMU, etc.|Preprint|Audio|Audio Generation|Transformer
+
+
 ### Citation
 
 If you find this useful, please cite our paper: "Large Language Models for Time Series: A Survey"
