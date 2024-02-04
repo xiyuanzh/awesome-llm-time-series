@@ -78,7 +78,7 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 18 May 2023|[Listen, Think, and Understand](https://arxiv.org/abs/2305.10790)|MIT, MIT-IBM Watson AI Lab|ICLR'24|Audio|Classification, Captioning|Vicuna
 16 Aug 2023|[TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series](https://arxiv.org/pdf/2308.08241.pdf)|Peking University, Alibaba Group|ICLR'24|General|Forecasting, Classification|BERT, GPT-2, ChatGLM, etc.
 16 Aug 2023|[LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters](https://arxiv.org/abs/2308.08469)|National Yang Ming Chiao Tung University|Preprint|General|Forecasting|GPT-2
-22 Aug 2023|[Music Understanding LLaMA: Advancing Text-to-Music Generation with Question Answering and Captioning]|Tencent, National University of Singapore|Preprint|Audio|QA, Captioning|LLaMA
+22 Aug 2023|[Music Understanding LLaMA: Advancing Text-to-Music Generation with Question Answering and Captioning](https://arxiv.org/abs/2308.11276)|Tencent, National University of Singapore|Preprint|Audio|QA, Captioning|LLaMA
 6 Sep 2023|[ETP: Learning Transferable ECG Representations via ECG-Text Pre-training](https://arxiv.org/abs/2309.07145)|Imperial College London, The Ohio State University|Preprint|Health|Classification|BioClinicalBERT
 19 Sep 2023|[End-to-End Speech Recognition Contextualization with Large Language Models](https://arxiv.org/abs/2309.10917)|Meta|Preprint|Audio|ASR|LLaMA
 3 Oct 2023|[Time-LLM: Time Series Forecasting by Reprogramming Large Language Models](https://arxiv.org/abs/2310.01728)|Monash University, Ant Group, etc.|ICLR'24|General|Forecasting|LLaMA
@@ -121,14 +121,14 @@ Dataset|Domain|Modality|Size|Task
 [Ego4D](https://ego4d-data.org/)|Audio, IoT|Text, IMU, Video, Audio, 3D|3, 670h data, 3.85M narrations|Classification, Forecasting, etc.
 [Ego-Exo4D](https://ego-exo4d-data.org/)|Audio, IoT|Text, IMU, Video, Audio, Eye Gaze, Pose, 3D|1,422h data|Classification, Translation, etc.
 [DeepSQA](https://github.com/nesl/DeepSQA)|IoT|Text, IMU|25h data, 91K questions|Classification, Question Answering
-[PIXIU](https://github.com/chancefocus/PIXIU)|Finance|136K instruction data|Text, Tables|NER, QA, Forecasting, etc.
-[MoAT](https://openreview.net/pdf?id=uRXxnoqDHH)|Finance, Health|6 datasets, 2K timesteps in total|Text, Time Series|Forecasting
-[Zuco 2.0](https://osf.io/2urht/)|Health|739 sentences|Text, Eye Tracking, EEG|Classification, Generation
-[PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)|Health|60h data, 71 unique statements|Text, ECG|Classification
-[ECG-QA](https://github.com/Jwoo5/ecg-qa)|Health|70 question templates|Text, ECG|Classification, QA
-[OpenAQA-5M](https://github.com/YuanGongND/ltu)|Audio|5.6M (audio, question, answer) tuples|Text, Audio|Tagging, Classification
-[MusicCaps](https://www.kaggle.com/datasets/googleai/musiccaps)|Audio|5.5K music clips|Text, Music|Captioning, Generation
-[CommonVoice](https://commonvoice.mozilla.org/en/datasets)|Audio|7, 335 speech hours in 60 languages|Text, Speech|ASR, Translation
+[PIXIU](https://github.com/chancefocus/PIXIU)|Finance|Text, Tables|136K instruction data|NER, QA, Forecasting, etc.
+[MoAT](https://openreview.net/pdf?id=uRXxnoqDHH)|Finance, Health|Text, Time Series|6 datasets, 2K timesteps in total|Forecasting
+[Zuco 2.0](https://osf.io/2urht/)|Health|Text, Eye Tracking, EEG|739 sentences|Classification, Generation
+[PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)|Health|Text, ECG|60h data, 71 unique statements|Classification
+[ECG-QA](https://github.com/Jwoo5/ecg-qa)|Health|Text, ECG|70 question templates|Classification, QA
+[OpenAQA-5M](https://github.com/YuanGongND/ltu)|Audio|Text, Audio|5.6M (audio, question, answer) tuples|Tagging, Classification
+[MusicCaps](https://www.kaggle.com/datasets/googleai/musiccaps)|Audio|Text, Music|5.5K music clips|Captioning, Generation
+[CommonVoice](https://commonvoice.mozilla.org/en/datasets)|Audio|Text, Speech|7, 335 speech hours in 60 languages|ASR, Translation
 
 ## Citation
 
