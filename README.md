@@ -71,7 +71,7 @@ Right: Alignment with large language models as backbones, where the output could
 Date|Paper|Institute|Conference|Domain|Task|LLM
 ----|---------------------|----|----|----|----|----
 5 Dec 2021|[Open Vocabulary Electroencephalography-To-Text Decoding and Zero-shot Sentiment Classification](https://arxiv.org/abs/2112.02690)|UIUC|AAAI'22|Health|Translation, Classification|BART
-29 Mar 2022|[WAVPROMPT: Towards Few-Shot Spoken Language Understanding with Frozen Language Models](https://arxiv.org/abs/2203.15863)|UIUC, MIT-IBM Watson AI Lab, etc.|Audio|Translation|GPT-2
+29 Mar 2022|[WAVPROMPT: Towards Few-Shot Spoken Language Understanding with Frozen Language Models](https://arxiv.org/abs/2203.15863)|UIUC, MIT-IBM Watson AI Lab, etc.|Preprint|Audio|Translation|GPT-2
 10 Aug 2022|[Can Brain Signals Reveal Inner Alignment with Human Languages?](https://arxiv.org/abs/2208.06348)|CMU, MIT, etc.|EMNLP'23 Findings|Health|Sentiment Analysis, Relation Detection|BERT
 21 Jan 2023|[Transfer Knowledge from Natural Language to Electrocardiography: Can We Detect Cardiovascular Disease Through Language Models?](https://arxiv.org/abs/2301.09017)|CMU, Allegheny General Hospital, etc.|EACL'23 Findings|Health|Generation, Classification|BERT, BART
 23 Feb 2023|[One Fits All:Power General Time Series Analysis by Pretrained LM](https://arxiv.org/abs/2302.11939)|Alibaba|NeurIPS'23|General|Forecasting, Classification, etc.|GPT-2
