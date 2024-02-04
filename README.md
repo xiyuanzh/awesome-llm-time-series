@@ -101,7 +101,7 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 9 May 2023|[ImageBind: One Embedding Space To Bind Them All](https://arxiv.org/abs/2305.05665)|Meta|CVPR'23|Audio, IoT|Classification, Retrieval|CLIP
 25 May 2023|[PandaGPT: One Model To Instruction-Follow Them All](https://arxiv.org/abs/2305.16355)|University of Cambridge, Nara Institute of Science and Technology, etc.|Preprint|Audio, IoT|QA, Generation|ImageBind, Vicuna
 27 Sep 2023|[AnyMAL: An Efficient and Scalable Any-Modality Augmented Language Model](https://arxiv.org/abs/2309.16058)|Meta|Preprint|Audio, IoT|Generation, QA, etc.|CLIP, LLaMA-2
-27 Oct 2023|[Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language](https://openreview.net/forum?id=E1khscdUdH&referrer=%5Bthe%20profile%20of%20Ming%20Zheng%5D(%2Fprofile%3Fid%3D~Ming_Zheng2)|UC Berkeley, Mineral, etc.|NeurIPS'23 Workshop|General|Generation|LLaVA, GPT-4
+27 Oct 2023|[Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language](https://openreview.net/forum?id=E1khscdUdH&referrer=%5Bthe%20profile%20of%20Ming%20Zheng%5D(%2Fprofile%3Fid%3D~Ming_Zheng2))|UC Berkeley, Mineral, etc.|NeurIPS'23 Workshop|General|Generation|LLaVA, GPT-4
 14 Nov 2023|[TENT: Connect Language Models with IoT Sensors for Zero-Shot Activity Recognition](https://arxiv.org/abs/2311.08245)|Nanyang Technological University|Preprint|IoT|Classification|CLIP
 
 ### Tool
@@ -112,7 +112,7 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 10 Jun 2023|[Language-Guided Traffic Simulation via Scene-Level Diffusion](https://arxiv.org/abs/2306.06344)|Columbia University, NVIDIA Research|CoRL'23|Traffic|Generation|GPT-4
 31 Jul 2023|[ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789)|Tsinghua University, ModelBest Inc., etc.|ICLR'24|General|Forecasting|LLaMA
 9 Oct 2023|[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction](https://arxiv.org/abs/2310.05627)|Hithink RoyalFlush Information Network Co., Ltd.|IJCAI'23|Finance|Forecasting|LLaMA
-30 Oct 2023|[GG-LLM: Geometrically Grounding Large Language Models for Zero-shot Human Activity Forecasting in Human-Aware Task Planning](https://arxiv.org/abs/2310.20034)|Samsung|IoT|Forecasting|LLaMA
+30 Oct 2023|[GG-LLM: Geometrically Grounding Large Language Models for Zero-shot Human Activity Forecasting in Human-Aware Task Planning](https://arxiv.org/abs/2310.20034)|Samsung|Preprint|IoT|Forecasting|LLaMA
 
 ## Datasets
 
@@ -127,8 +127,8 @@ Dataset|Domain|Modality|Size|Task
 [PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)|Health|60h data, 71 unique statements|Text, ECG|Classification
 [ECG-QA](https://github.com/Jwoo5/ecg-qa)|Health|70 question templates|Text, ECG|Classification, QA
 [OpenAQA-5M](https://github.com/YuanGongND/ltu)|Audio|5.6M (audio, question, answer) tuples|Text, Audio|Tagging, Classification
-[MusicCaps](https://www.kaggle.com/datasets/googleai/musiccaps)|5.5K music clips|Text, Music|Captioning, Generation
-[CommonVoice](https://commonvoice.mozilla.org/en/datasets)|7, 335 speech hours in 60 languages|Text, Speech|ASR, Translation
+[MusicCaps](https://www.kaggle.com/datasets/googleai/musiccaps)|Audio|5.5K music clips|Text, Music|Captioning, Generation
+[CommonVoice](https://commonvoice.mozilla.org/en/datasets)|Audio|7, 335 speech hours in 60 languages|Text, Speech|ASR, Translation
 
 ## Citation
 
