@@ -92,12 +92,44 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 18 Jan 2024|[Spatial-Temporal Large Language Model for Traffic Prediction](https://arxiv.org/abs/2401.10134)|Nanyang Technological University, Peking University, etc.|Preprint|Traffic|Forecasting|GPT-2, LLaMA-2
 
 ### Vision
+
 Date|Paper|Institute|Conference|Domain|Task|LLM
 ----|---------------------|----|----|----|----|----
+26 Oct 2022|[IMU2CLIP: Multimodal Contrastive Learning for IMU Motion Sensors from Egocentric Videos and Text](https://arxiv.org/abs/2210.14395)|Meta|EMNLP'23 Findings|IoT|Classification, Retrieval|CLIP
+17 Jan 2023|[Leveraging Vision-Language Models for Granular Market Change Prediction](https://arxiv.org/abs/2301.10166)|Johannes Kepler University Linz, Linz Institute of Technology|AAAI'23 Workshop|Finance|Forecasting|CLIP
+4 May 2023|[Generating Virtual On-body Accelerometer Data from Virtual Textual Descriptions for Human Activity Recognition](https://arxiv.org/abs/2305.03187)|Georgia Institute of Technology|ISWC'23|IoT|Generation|ChatGPT
 9 May 2023|[ImageBind: One Embedding Space To Bind Them All](https://arxiv.org/abs/2305.05665)|Meta|CVPR'23|Audio, IoT|Classification, Retrieval|CLIP
-25 May 2023|[PandaGPT: One Model To Instruction-Follow Them All](https://arxiv.org/abs/2305.16355)|University of Cambridge, Nara Institute of Science and Technology, etc.|Audio, IoT|QA, Generation|ImageBind, Vicuna
+25 May 2023|[PandaGPT: One Model To Instruction-Follow Them All](https://arxiv.org/abs/2305.16355)|University of Cambridge, Nara Institute of Science and Technology, etc.|Preprint|Audio, IoT|QA, Generation|ImageBind, Vicuna
+27 Sep 2023|[AnyMAL: An Efficient and Scalable Any-Modality Augmented Language Model](https://arxiv.org/abs/2309.16058)|Meta|Preprint|Audio, IoT|Generation, QA, etc.|CLIP, LLaMA-2
+27 Oct 2023|[Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language](https://openreview.net/forum?id=E1khscdUdH&referrer=%5Bthe%20profile%20of%20Ming%20Zheng%5D(%2Fprofile%3Fid%3D~Ming_Zheng2)|UC Berkeley, Mineral, etc.|NeurIPS'23 Workshop|General|Generation|LLaVA, GPT-4
 14 Nov 2023|[TENT: Connect Language Models with IoT Sensors for Zero-Shot Activity Recognition](https://arxiv.org/abs/2311.08245)|Nanyang Technological University|Preprint|IoT|Classification|CLIP
 
-### Citation
+### Tool
+
+Date|Paper|Institute|Conference|Domain|Task|LLM
+----|---------------------|----|----|----|----|----
+1 Jan 2023|[Unleashing the Power of Shared Label Structures for Human Activity Recognition](https://arxiv.org/abs/2301.03462)|UC San Diego, Amazon|CIKM'23|IoT|Classification|ImageBind, GPT-4
+10 Jun 2023|[Language-Guided Traffic Simulation via Scene-Level Diffusion](https://arxiv.org/abs/2306.06344)|Columbia University, NVIDIA Research|CoRL'23|Traffic|Generation|GPT-4
+31 Jul 2023|[ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789)|Tsinghua University, ModelBest Inc., etc.|ICLR'24|General|Forecasting|LLaMA
+9 Oct 2023|[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction](https://arxiv.org/abs/2310.05627)|Hithink RoyalFlush Information Network Co., Ltd.|IJCAI'23|Finance|Forecasting|LLaMA
+30 Oct 2023|[GG-LLM: Geometrically Grounding Large Language Models for Zero-shot Human Activity Forecasting in Human-Aware Task Planning](https://arxiv.org/abs/2310.20034)|Samsung|IoT|Forecasting|LLaMA
+
+## Datasets
+
+Dataset|Domain|Modality|Size|Task
+-------|------|--------|----------|----
+[Ego4D](https://ego4d-data.org/)|Audio, IoT|Text, IMU, Video, Audio, 3D|3, 670h data, 3.85M narrations|Classification, Forecasting, etc.
+[Ego-Exo4D](https://ego-exo4d-data.org/)|Audio, IoT|Text, IMU, Video, Audio, Eye Gaze, Pose, 3D|1,422h data|Classification, Translation, etc.
+[DeepSQA](https://github.com/nesl/DeepSQA)|IoT|Text, IMU|25h data, 91K questions|Classification, Question Answering
+[PIXIU](https://github.com/chancefocus/PIXIU)|Finance|136K instruction data|Text, Tables|NER, QA, Forecasting, etc.
+[MoAT](https://openreview.net/pdf?id=uRXxnoqDHH)|Finance, Health|6 datasets, 2K timesteps in total|Text, Time Series|Forecasting
+[Zuco 2.0](https://osf.io/2urht/)|Health|739 sentences|Text, Eye Tracking, EEG|Classification, Generation
+[PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)|Health|60h data, 71 unique statements|Text, ECG|Classification
+[ECG-QA](https://github.com/Jwoo5/ecg-qa)|Health|70 question templates|Text, ECG|Classification, QA
+[OpenAQA-5M](https://github.com/YuanGongND/ltu)|Audio|5.6M (audio, question, answer) tuples|Text, Audio|Tagging, Classification
+[MusicCaps](https://www.kaggle.com/datasets/googleai/musiccaps)|5.5K music clips|Text, Music|Captioning, Generation
+[CommonVoice](https://commonvoice.mozilla.org/en/datasets)|7, 335 speech hours in 60 languages|Text, Speech|ASR, Translation
+
+## Citation
 
 If you find this useful, please cite our paper: "Large Language Models for Time Series: A Survey"
