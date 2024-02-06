@@ -19,6 +19,7 @@ Right: Representative works for each category, sorted by their publication dates
   - [Vision](#vision)
   - [Tool](#tool)
 - [Datasets](#datasets)
+- [Citation](#citation)
     
 ## Taxonomy
 
@@ -133,3 +134,13 @@ Dataset|Domain|Modality|Size|Task
 ## Citation
 
 If you find this useful, please cite our paper: "Large Language Models for Time Series: A Survey"
+```
+@misc{zhang2024large,
+      title={Large Language Models for Time Series: A Survey}, 
+      author={Xiyuan Zhang and Ranak Roy Chowdhury and Rajesh K. Gupta and Jingbo Shang},
+      year={2024},
+      eprint={2402.01801},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
