@@ -92,6 +92,8 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 24 Nov 2023|[GATGPT: A Pre-trained Large Language Model with Graph Attention Network for Spatiotemporal Imputation](https://arxiv.org/abs/2311.14332)|University of Technology Sydney|Preprint|General|Imputation|GPT-2
 11 Dec 2023|[Multimodal Pretraining of Medical Time Series and Notes](https://arxiv.org/abs/2312.06855)|Texas A&M University|ML4H'23|Health|Classification|BERT
 18 Jan 2024|[Spatial-Temporal Large Language Model for Traffic Prediction](https://arxiv.org/abs/2401.10134)|Nanyang Technological University, Peking University, etc.|Preprint|Traffic|Forecasting|GPT-2, LLaMA-2
+25 Jan 2024|[How Can Large Language Models Understand Spatial-Temporal Data?](https://arxiv.org/abs/2401.14192)|Dalian University of Technology|Preprint|General|Forecasting|GPT-2
+26 Jan 2024|[Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection](https://arxiv.org/abs/2401.15123)|Zhejiang University|Preprint|General|Anomaly Detection|GPT-2
 
 ### Vision
 
