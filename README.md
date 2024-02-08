@@ -1,6 +1,6 @@
 # awesome-llm-time-series
 
-Tracking papers on "LLM for time series analysis".
+Tracking papers on "LLM for time series analysis", more details in [Large Language Models for Time Series: A Survey](https://arxiv.org/abs/2402.01801).
 
 ![](./taxonomy.png)
 Left: Taxonomy of LLMs for time series analysis. If we outline typical LLM-driven NLP pipelines in five stages - input text, tokenization, embedding, LLM, output - then each category of our taxonomy targets one specific stage in this pipeline:
