@@ -38,6 +38,9 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 7 Oct 2023|[Large Language Models for Spatial Trajectory Patterns Mining](https://arxiv.org/abs/2310.04942)|Emory University|Preprint|Mobility|Anomaly Detection|GPT-3.5, GPT-4, Claude-2
 11 Oct 2023|[Large Language Models Are Zero-Shot Time Series Forecasters](https://arxiv.org/abs/2310.07820)|NYU, CMU|NeurIPS'23|General|Forecasting|GPT-3, LLaMA-2 
 26 Oct 2023|[Utilizing Language Models for Energy Load Forecasting](https://arxiv.org/abs/2310.17788)|University of New South Wales|BuildSys'23|Energy|Forecasting|BART, Bigbird, Pegasus
+16 Feb 2024|[Time Series Forecasting with LLMs: Understanding and Enhancing Model Capabilities](https://arxiv.org/abs/2402.10835)| Rutgers University, Shanghai Jiao Tong University, etc.|Preprint|General|Forecasting|GPT-3.5, GPT-4, LLaMA-2
+25 Feb 2024|[LSTPrompt: Large Language Models as Zero-Shot Time Series Forecasters by Long-Short-Term Prompting](https://arxiv.org/abs/2402.16132)|Georgia Institute of Technology, Microsoft Research Asia|Preprint|General|Forecasting|GPT-3.5, GPT-4
+2 Mar 2024|[Evaluating Large Language Models as Virtual Annotators for Time-series Physical Sensing Data](https://arxiv.org/abs/2403.01133)|Indian Institute of Technology, Kharagpur, Nokia Bell Labs|Preprint|IoT|Classification|GPT-4
 
 ### Quantization
 
@@ -60,6 +63,7 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 22 Sept 2023|[Time Series Modeling at Scale: A Universal Representation Across Tasks and Domains](https://openreview.net/forum?id=SZErAetdMu)|Anonymous|OpenReview|General|Forecasting, Classification, etc.|Transformer
 25 Sep 2023|[DeWave: Discrete EEG Waves Encoding for Brain Dynamics to Text Translation](https://arxiv.org/abs/2309.14030)|University of Technology Sydney, The University of Sydney|NeurIPS'23|Health|Generation|BART
 1 Oct 2023|[UniAudio: An Audio Foundation Model Toward Universal Audio Generation](https://arxiv.org/abs/2310.00704)|The Chinese University of Hong Kong, CMU, etc.|Preprint|Audio|Generation|Transformer
+12 Mar 2024|[Chronos: Learning the Language of Time Series](https://arxiv.org/abs/2403.07815)|Amazon Web Services, UC San Diego, etc.|Preprint|General|Forecasting|T5
 
 ### Alignment
 
@@ -94,6 +98,10 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 18 Jan 2024|[Spatial-Temporal Large Language Model for Traffic Prediction](https://arxiv.org/abs/2401.10134)|Nanyang Technological University, Peking University, etc.|Preprint|Traffic|Forecasting|GPT-2, LLaMA-2
 25 Jan 2024|[How Can Large Language Models Understand Spatial-Temporal Data?](https://arxiv.org/abs/2401.14192)|Dalian University of Technology|Preprint|General|Forecasting|GPT-2
 26 Jan 2024|[Large Language Model Guided Knowledge Distillation for Time Series Anomaly Detection](https://arxiv.org/abs/2401.15123)|Zhejiang University|Preprint|General|Anomaly Detection|GPT-2
+4 Feb 2024|[AutoTimes: Autoregressive Time Series Forecasters via Large Language Models](https://arxiv.org/abs/2402.02370)|Tsinghua University|Preprint|General|Forecasting|LLaMA, GPT-2, OPT
+7 Feb 2024|[Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning](https://arxiv.org/abs/2402.04852)|The Chinese University of Hong Kong, Tongji University, etc.|Preprint|General|Forecasting, Anomaly Detection|GPT-2
+9 Mar 2024|[S^2IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting](https://arxiv.org/abs/2403.05798)|University of Connecticut, Morgan Stanley|Preprint|General|Forecasting|GPT-2
+12 Mar 2024|[Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation](https://arxiv.org/abs/2403.07300)|Tsinghua University, Shenzhen University|Preprint|General|Forecasting|GPT-2
 
 ### Vision
 
@@ -126,6 +134,7 @@ Dataset|Domain|Modality|Size|Task
 [DeepSQA](https://github.com/nesl/DeepSQA)|IoT|Text, IMU|25h data, 91K questions|Classification, Question Answering
 [PIXIU](https://github.com/chancefocus/PIXIU)|Finance|Text, Tables|136K instruction data|NER, QA, Forecasting, etc.
 [MoAT](https://openreview.net/pdf?id=uRXxnoqDHH)|Finance, Health|Text, Time Series|6 datasets, 2K timesteps in total|Forecasting
+[FNSPID](https://github.com/Zdong104/FNSPID_Financial_News_Dataset)|Finance|Text, Time Series|29.7M stock prices, 15.7M news records|Forecasting, Anomaly Detection, etc.
 [Zuco 2.0](https://osf.io/2urht/)|Health|Text, Eye Tracking, EEG|739 sentences|Classification, Generation
 [PTB-XL](https://physionet.org/content/ptb-xl/1.0.3/)|Health|Text, ECG|60h data, 71 unique statements|Classification
 [ECG-QA](https://github.com/Jwoo5/ecg-qa)|Health|Text, ECG|70 question templates|Classification, QA
