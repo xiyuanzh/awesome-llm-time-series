@@ -124,6 +124,8 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 31 Jul 2023|[ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs](https://arxiv.org/abs/2307.16789)|Tsinghua University, ModelBest Inc., etc.|ICLR'24|General|Forecasting|LLaMA
 9 Oct 2023|[Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction](https://arxiv.org/abs/2310.05627)|Hithink RoyalFlush Information Network Co., Ltd.|IJCAI'23|Finance|Forecasting|LLaMA
 30 Oct 2023|[GG-LLM: Geometrically Grounding Large Language Models for Zero-shot Human Activity Forecasting in Human-Aware Task Planning](https://arxiv.org/abs/2310.20034)|Samsung|Preprint|IoT|Forecasting|LLaMA
+10 Feb 2024|[REALM: RAG-Driven Enhancement of Multimodal Electronic Health Records Analysis via Large Language Models](https://arxiv.org/abs/2402.07016)|Beihang University, China Mobile Research Institute|Preprint|Health|BERT, BGE-M3, Qwen
+6 Mar 2024|[K-Link: Knowledge-Link Graph from LLMs for Enhanced Representation Learning in Multivariate Time-Series Data](https://arxiv.org/abs/2403.03645)|Institute for Infocomm Research, Nanyang Technological University|Preprint|General|Classification, Regression|CLIP
 
 ## Datasets
 
