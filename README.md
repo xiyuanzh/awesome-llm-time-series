@@ -2,6 +2,8 @@
 
 Tracking papers on "LLM for time series analysis", more details in [Large Language Models for Time Series: A Survey](https://arxiv.org/abs/2402.01801).
 
+[New🔥] Our survey paper is accepted to IJCAI 2024, survey track!
+
 ![](./taxonomy.png)
 Left: Taxonomy of LLMs for time series analysis. If we outline typical LLM-driven NLP pipelines in five stages - input text, tokenization, embedding, LLM, output - then each category of our taxonomy targets one specific stage in this pipeline:
 * Prompting (input stage) treats time series data as raw text and directly prompts LLMs with time series;
