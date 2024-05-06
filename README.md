@@ -104,6 +104,7 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 7 Feb 2024|[Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning](https://arxiv.org/abs/2402.04852)|The Chinese University of Hong Kong, Tongji University, etc.|Preprint|General|Forecasting, Anomaly Detection|GPT-2
 9 Mar 2024|[S^2IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting](https://arxiv.org/abs/2403.05798)|University of Connecticut, Morgan Stanley|Preprint|General|Forecasting|GPT-2
 12 Mar 2024|[Taming Pre-trained LLMs for Generalised Time Series Forecasting via Cross-modal Knowledge Distillation](https://arxiv.org/abs/2403.07300)|Tsinghua University, Shenzhen University|Preprint|General|Forecasting|GPT-2
+24 Mar 2024|[GPT4MTS: Prompt-Based Large Language Model for Multimodal Time-Series Forecasting](https://ojs.aaai.org/index.php/AAAI/article/view/30383)|University of Southern California|AAAI'24|Finance|Forecasting|GPT-2, BERT
 
 ### Vision
 
