@@ -8,7 +8,7 @@ Tracking papers on "LLM for time series analysis", more details in [Large Langua
 Left: Taxonomy of LLMs for time series analysis. If we outline typical LLM-driven NLP pipelines in five stages - input text, tokenization, embedding, LLM, output - then each category of our taxonomy targets one specific stage in this pipeline:
 * Prompting (input stage) treats time series data as raw text and directly prompts LLMs with time series;
 * Time Series Quantization (tokenization stage) discretizes time series as special tokens for LLMs to process;
-* Alignment (embedding stage) designs time series encoder to align time series embeddings with language space;
+* Aligning (embedding stage) designs time series encoder to align time series embeddings with language space;
 * Vision as Bridge (LLM stage) connects time series with Vision-Lanuage Models (VLM) by employing visual representations as a bridge;
 * Tool Integration (output stage) adopts language models to output tools to benefit time series analysis.
 
@@ -17,7 +17,7 @@ Right: Representative works for each category, sorted by their publication dates
 - [Taxonomy](#taxonomy)
   - [Prompting](#prompting)
   - [Quantization](#quantization)
-  - [Alignment](#alignment)
+  - [Aligning](#aligning)
   - [Vision](#vision)
   - [Tool](#tool)
 - [Datasets](#datasets)
@@ -67,13 +67,13 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 1 Oct 2023|[UniAudio: An Audio Foundation Model Toward Universal Audio Generation](https://arxiv.org/abs/2310.00704)|The Chinese University of Hong Kong, CMU, etc.|Preprint|Audio|Generation|Transformer
 12 Mar 2024|[Chronos: Learning the Language of Time Series](https://arxiv.org/abs/2403.07815)|Amazon Web Services, UC San Diego, etc.|Preprint|General|Forecasting|T5
 
-### Alignment
+### Aligning
 
 ![](./alignment.png)
 
-Left: Alignment by similarity matching
+Left: Aligning by similarity matching
 
-Right: Alignment with large language models as backbones, where the output could be time series (e.g., forecasting) or text (e.g., EEG-to-text) depending on the downstream tasks.
+Right: Aligning with large language models as backbones, where the output could be time series (e.g., forecasting) or text (e.g., EEG-to-text) depending on the downstream tasks.
 
 Date|Paper|Institute|Conference|Domain|Task|LLM
 ----|---------------------|----|----|----|----|----
