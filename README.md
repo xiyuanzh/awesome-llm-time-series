@@ -151,12 +151,10 @@ Dataset|Domain|Modality|Size|Task
 
 If you find this useful, please cite our paper: "Large Language Models for Time Series: A Survey"
 ```
-@misc{zhang2024large,
-      title={Large Language Models for Time Series: A Survey}, 
-      author={Xiyuan Zhang and Ranak Roy Chowdhury and Rajesh K. Gupta and Jingbo Shang},
-      year={2024},
-      eprint={2402.01801},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{zhang2024large,
+  title={Large Language Models for Time Series: A Survey},
+  author={Zhang, Xiyuan and Chowdhury, Ranak Roy and Gupta, Rajesh K and Shang, Jingbo},
+  journal={arXiv preprint arXiv:2402.01801},
+  year={2024}
 }
 ```
