@@ -66,6 +66,8 @@ Date|Paper|Institute|Conference|Domain|Task|LLM
 25 Sep 2023|[DeWave: Discrete EEG Waves Encoding for Brain Dynamics to Text Translation](https://arxiv.org/abs/2309.14030)|University of Technology Sydney, The University of Sydney|NeurIPS'23|Health|Generation|BART
 1 Oct 2023|[UniAudio: An Audio Foundation Model Toward Universal Audio Generation](https://arxiv.org/abs/2310.00704)|The Chinese University of Hong Kong, CMU, etc.|Preprint|Audio|Generation|Transformer
 12 Mar 2024|[Chronos: Learning the Language of Time Series](https://arxiv.org/abs/2403.07815)|Amazon Web Services, UC San Diego, etc.|Preprint|General|Forecasting|T5
+19 Mar 2024|[Advancing Time Series Classification with Multimodal Language Modeling](https://arxiv.org/abs/2403.12371)|University of Science and Technology of China|Preprint|General|Classification|GPT-2
+19 Mar 2024|[Learning Transferable Time Series Classifier with Cross-Domain Pre-training from Language Model](https://arxiv.org/abs/2403.12372)|University of Science and Technology of China, Kuaishou Technology|Preprint|General|Classification|BERT, GPT-2
 
 ### Aligning
 
